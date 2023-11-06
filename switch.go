@@ -153,3 +153,7 @@ func (s Switch) Timer(ctx context.Context, mode SwitchTimerMode, time time.Durat
 	_, err = s.client.do(req)
 	return err
 }
+
+func (s Switch) URL() url.URL  {
+	return *s.baseURL
+}
