@@ -154,6 +154,6 @@ func (s Switch) Timer(ctx context.Context, mode SwitchTimerMode, time time.Durat
 	return err
 }
 
-func (s Switch) URL() url.URL  {
+func (s Switch) URL() url.URL {
 	return *s.baseURL
 }
