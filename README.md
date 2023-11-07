@@ -1,6 +1,6 @@
-[![Go Report Card](https://goreportcard.com/badge/thde.io/mystrom)](https://goreportcard.com/report/thde.io/mystrom)
-
 # mystrom
+
+[![Go Reference](https://pkg.go.dev/badge/thde.io/mystrom.svg)](https://pkg.go.dev/thde.io/mystrom) [![Go Report Card](https://goreportcard.com/badge/thde.io/mystrom)](https://goreportcard.com/report/thde.io/mystrom)
 
 The mystrom package provides Go client for the [myStrom REST API](https://api.mystrom.ch/).
 
